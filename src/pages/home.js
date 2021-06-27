@@ -19,7 +19,7 @@ const Home = ({ imageDetails, image }) => (
                 height: imageDetails.height,
               }}>
               <div className='frame'>
-                <Link to={`/about/pharmacy`}>
+                <Link to={`/model/pharmacy`}>
                   <ProgressiveImage
                     src={require("../images/registered_pharmacy_technician.png")}
                     placeholder={require("../images/compressed-image.png")}>
